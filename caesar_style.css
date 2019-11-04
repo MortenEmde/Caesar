@@ -1,0 +1,89 @@
+body {
+    font-family: arial,sans-serif;
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:#7892c2;
+    color:#ffffff;
+    text-shadow:0px 1px 0px #283966;
+}
+
+#textBox, #messageOutput {
+    font-family: arial,sans-serif;
+    font-size: 18px;
+    color: #555555;
+    display: flex;
+    outline: none;
+    width: 388px;
+    height: 138px;
+    border: none;
+    box-shadow: 0 0 2px #4e6096;
+    margin: auto;
+    padding: 10px;
+    resize: none;
+}
+
+#textBox {
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 1px solid #4e6096;
+    border-right: 1px solid #4e6096;
+    border-left: 1px solid #4e6096;
+}
+
+#messageOutput {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    border-bottom: 1px solid #4e6096;
+    border-right: 1px solid #4e6096;
+    border-left: 1px solid #4e6096;
+}
+
+#keyBox {
+    width: 45px;
+    height: 23px;
+    border: none;
+    box-shadow: 0 0 1px #888;
+    outline: none;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-family: arial,sans-serif;
+    font-size: 18px;
+    color: #555555;
+    border-radius:10px;
+}
+
+#encryptBtn, #decryptBtn {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: arial,sans-serif;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#encryptBtn:hover, #decryptBtn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+
+#encryptBtn:active, #decryptBtn:active {
+	position:relative;
+	top:1px;
+}
+
+#btns {
+    text-align:center;
+}

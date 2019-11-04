@@ -5,11 +5,21 @@
     <title>Caesar code</title>
 </head>
 <body>
-    <h1>Caecar encrypt and decrypter</h1>
-    <input type="text" id="textBox" value="Type your message here">
-    <input type="number" id="keyBox" value=1>
-    <button id="encryptBtn">Encrypt</button>
-    <button id="decryptBtn">Decrypt</button>
+    <div id="top">
+        <h1>Caesar Enigma Machine</h1>
+        <p>In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. <br> It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. <br> For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. <br> The method is named after Julius Caesar, who used it in his private correspondence.</p>
+        <p>Add your own message here below with a key and encrypt it! <br> Or decrypt a message you recived from a friend with the corresponding key. </p>
+    </div>
+    <div id="mid">    
+        <textarea placeholder="Your message goes here" id="textBox"></textarea>
+        <div id="message"></div>
+        <input type="number" id="keyBox" value=1>
+    </div>
+    <br>
+    <div id="btns">
+        <button id="encryptBtn">Encrypt</button>
+        <button id="decryptBtn">Decrypt</button>
+    </div>
     <script src="caesar_script.js"></script>
 </body>    
 </html>
